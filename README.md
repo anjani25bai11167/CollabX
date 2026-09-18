@@ -64,32 +64,6 @@ The system compares a user's skills with the required skills of a project.
 - Scanner
 - Git / GitHub
 
-## Project Structure
-
-```text
-CollabX/
-│
-├── src/
-│   ├── Main.java
-│   │
-│   ├── models/
-│   │   ├── User.java
-│   │   ├── Project.java
-│   │   ├── Application.java
-│   │   └── Task.java
-│   │
-│   ├── services/
-│   │   ├── UserService.java
-│   │   ├── ProjectService.java
-│   │   ├── ApplicationService.java
-│   │   └── TaskService.java
-│   │
-│   └── utils/
-│       └── InputValidator.java
-│
-└── README.md
-```
-
 ## Requirements
 
 Install:
