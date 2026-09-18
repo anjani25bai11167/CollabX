@@ -1,0 +1,55 @@
+{
+  "description": "Seed data for the CollabX prototype. This mirrors the objects created in addSampleData() in CollabX.java, provided here as a standalone reference/data file for the repository.",
+  "users": [
+    {
+      "id": 1,
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "1234",
+      "course": "Computer Science",
+      "skills": ["java", "sql", "python"]
+    },
+    {
+      "id": 2,
+      "name": "Aarav",
+      "email": "aarav@gmail.com",
+      "password": "1234",
+      "course": "Computer Science",
+      "skills": ["react", "javascript", "html"]
+    },
+    {
+      "id": 3,
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "password": "1234",
+      "course": "Information Technology",
+      "skills": ["python", "machine learning", "sql"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Smart Traffic Prediction",
+      "description": "An ML system that predicts traffic congestion.",
+      "category": "Artificial Intelligence",
+      "creatorId": 1,
+      "teamSize": 4,
+      "status": "OPEN",
+      "requiredSkills": ["python", "machine learning", "sql"],
+      "teamMembers": [1]
+    },
+    {
+      "id": 2,
+      "title": "Campus Marketplace",
+      "description": "Platform for students to buy and sell used products.",
+      "category": "Web Development",
+      "creatorId": 2,
+      "teamSize": 4,
+      "status": "OPEN",
+      "requiredSkills": ["react", "javascript", "sql"],
+      "teamMembers": [2]
+    }
+  ],
+  "applications": [],
+  "tasks": []
+}
